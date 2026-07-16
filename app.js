@@ -4,7 +4,7 @@
    To change the team password, edit the ONE line just below.
    ============================================================================ */
 
-const TEAM_PASSWORD = "test123";   // <- change this to your team password
+const TEAM_PASSWORD = "fullcircle2026";   // <- change this to your team password
 
 /* --------------------------------------------------------------------------
    1. PASSWORD GATE  (light protection — deters casual access, not hackers)
