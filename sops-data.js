@@ -26,22 +26,22 @@ const SOP_CATEGORIES = [
 
   /* ----------------------------------------------------------------------- */
   {
-    category: "Amazon Compliance",
-    icon: "📑",
+    category: "Client Onboarding",
+    icon: "🚀",
     sops: [
       {
-        title: "Amazon-US-Product-Compliance-SOP",
-        link: "https://docs.google.com/document/d/16wZQJz78rgY4hmm7uoI9CkF7sUhOCbYOSGSxuppB4Tk/edit?usp=sharing",
-        desc: "Amazon US Product Compliance, Testing & Certification SOP",
+        title: "New Client Onboarding Checklist",
+        link: "https://docs.google.com/document/d/REPLACE_WITH_YOUR_DOC_ID/edit",
+        desc: "Step-by-step from signed contract to kickoff call.",
         icon: "✅",
-        tags: "compliance"
+        tags: "kickoff intake setup account access"
       },
       {
-        title: "Amazon Compliance Escalation SOP",
-        link: "https://docs.google.com/document/d/1vnd-JPpfMLr7yJeXlwNtcJsi6trprXW2UXMmdJvtNdY/edit",
-        desc: "Escalation Appeal for a compliance issue",
-        icon: "🪜",
-        tags: "Direct ID for escalating appeals"
+        title: "Amazon Account Access Request",
+        link: "https://docs.google.com/document/d/16wZQJz78rgY4hmm7uoI9CkF7sUhOCbYOSGSxuppB4Tk/edit?usp=sharing",
+        desc: "How to request and confirm Seller/Vendor Central access.",
+        icon: "🔑",
+        tags: "seller central vendor central permissions"
       }
     ]
   },
