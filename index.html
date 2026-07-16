@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Circle — SOP Library</title>
+  <meta name="description" content="Internal SOP library for Full Circle Agency client success team." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== PASSWORD GATE ===================== -->
+  <div id="gate" class="gate">
+    <div class="gate-card">
+      <div class="gate-logo">Full Circle<span class="dot">.</span></div>
+      <p class="gate-sub">SOP Library — team access</p>
+      <form id="gate-form" autocomplete="off">
+        <input id="gate-input" type="password" placeholder="Enter team password" aria-label="Team password" />
+        <button type="submit">Unlock</button>
+      </form>
+      <p id="gate-error" class="gate-error" hidden>Incorrect password. Try again.</p>
+    </div>
+  </div>
+
+  <!-- ===================== APP ===================== -->
+  <div id="app" class="app" hidden>
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">Full Circle<span class="dot">.</span></span>
+        <span class="brand-tag">SOP Library</span>
+      </div>
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14"/></svg>
+        <input id="search" type="text" placeholder="Search SOPs — try 'PPC', 'onboarding', 'report'…" aria-label="Search SOPs" />
+        <button id="search-clear" class="search-clear" hidden aria-label="Clear search">&times;</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1>Standard Operating Procedures</h1>
+      <p>Every process, one place. Click any SOP to read it right here — no downloads, no digging through Drive.</p>
+    </section>
+
+    <main id="content" class="content"><!-- categories render here --></main>
+
+    <div id="empty" class="empty" hidden>
+      <p>No SOPs match your search.</p>
+      <button id="empty-reset">Clear search</button>
+    </div>
+
+    <footer class="footer">
+      <span>Full Circle Agency — Internal use only</span>
+      <button id="lock-btn" class="lock-btn">Lock</button>
+    </footer>
+  </div>
+
+  <!-- ===================== DOC VIEWER ===================== -->
+  <div id="viewer" class="viewer" hidden>
+    <div class="viewer-bar">
+      <div class="viewer-title" id="viewer-title">Document</div>
+      <div class="viewer-actions">
+        <a id="viewer-open" href="#" target="_blank" rel="noopener" class="viewer-open">Open in Drive ↗</a>
+        <button id="viewer-close" class="viewer-close" aria-label="Close">&times;</button>
+      </div>
+    </div>
+    <div class="viewer-frame-wrap">
+      <div id="viewer-loading" class="viewer-loading">Loading document…</div>
+      <iframe id="viewer-frame" title="SOP document" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="sops-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
