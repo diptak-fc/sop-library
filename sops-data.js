@@ -31,14 +31,14 @@ const SOP_CATEGORIES = [
     sops: [
       {
         title: "Amazon-US-Product-Compliance-SOP",
-        link: "https://docs.google.com/document/d/16wZQJz78rgY4hmm7uoI9CkF7sUhOCbYOSGSxuppB4Tk/edit?usp=drive_link",
+        link: "https://docs.google.com/document/d/16wZQJz78rgY4hmm7uoI9CkF7sUhOCbYOSGSxuppB4Tk/edit",
         desc: "Amazon US Product Compliance, Testing & Certification SOP",
         icon: "✅",
         tags: "compliance"
       },
       {
         title: "Amazon Compliance Escalation SOP",
-        link: "https://docs.google.com/document/d/1vnd-JPpfMLr7yJeXlwNtcJsi6trprXW2UXMmdJvtNdY/edit?usp=sharing",
+        link: "https://docs.google.com/document/d/1vnd-JPpfMLr7yJeXlwNtcJsi6trprXW2UXMmdJvtNdY/edit",
         desc: "Escalation Appeal for a compliance issue",
         icon: "🪜",
         tags: "Direct ID for escalating appeals"
