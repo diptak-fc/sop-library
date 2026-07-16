@@ -26,15 +26,15 @@ const SOP_CATEGORIES = [
 
   /* ----------------------------------------------------------------------- */
   {
-    category: "Client Onboarding",
+    category: "SOP TEST",
     icon: "🚀",
     sops: [
       {
-        title: "New Client Onboarding Checklist",
-        link: "https://docs.google.com/document/d/REPLACE_WITH_YOUR_DOC_ID/edit",
-        desc: "Step-by-step from signed contract to kickoff call.",
+        title: "SOP TETSING",
+        link: "https://docs.google.com/document/d/16wZQJz78rgY4hmm7uoI9CkF7sUhOCbYOSGSxuppB4Tk/edit?usp=sharing",
+        desc: "TEST",
         icon: "✅",
-        tags: "kickoff intake setup account access"
+        tags: "SOPS TEST"
       },
       {
         title: "Amazon Account Access Request",
