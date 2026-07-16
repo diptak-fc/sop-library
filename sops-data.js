@@ -31,7 +31,7 @@ const SOP_CATEGORIES = [
     sops: [
       {
         title: "Amazon-US-Product-Compliance-SOP",
-        link: "https://docs.google.com/document/d/16wZQJz78rgY4hmm7uoI9CkF7sUhOCbYOSGSxuppB4Tk/edit",
+        link: "https://docs.google.com/document/d/16wZQJz78rgY4hmm7uoI9CkF7sUhOCbYOSGSxuppB4Tk/edit?usp=sharing",
         desc: "Amazon US Product Compliance, Testing & Certification SOP",
         icon: "✅",
         tags: "compliance"
